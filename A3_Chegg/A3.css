@@ -1,0 +1,73 @@
+body {
+    background-color: white;
+
+    max-width: 1080px;
+    min-width: 204px;
+    display: block;
+
+    padding: auto;
+
+}
+
+header {
+    position: relative;
+    margin-right: 5px;
+    margin-left: auto;
+    padding: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+/*#theCanvas {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    z-index: 1;
+  
+    border: 1px solid black;
+}*/
+
+#theCanvas {
+    position: relative;
+
+}
+
+
+
+
+
+#score {
+    font-size: 20px;
+    color: blue;
+}
+
+#title {
+    font-size: 30px;
+    color: blue;
+}
+
+#scoreButton,
+#speedButton {
+    border: none;
+    background-color: #0e02f4;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    color: aliceblue;
+    margin: 2px 2px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    width: 110px;
+
+}
+
+#scoreButton:hover,
+#speedButton:hover {
+    background-color: rgb(15, 94, 240);
+}

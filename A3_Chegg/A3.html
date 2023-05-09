@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+    COMP125-009  
+    Assignment 3
+
+      Author: Tat Chung Lee (301255163)
+      Date: 04-02-2023
+
+      
+   -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="A3.css">
+
+    <title>Simple Canvas Game</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>Assignment 3</header>
+    <hr>
+    <table>
+        <tr>
+            <td style="width:200px;">
+                <div id="score"></div>
+                <div id="title">BugSmasher</div>
+            </td>
+            <td style="width:200px;">
+                <button id="scoreButton" onclick="resetScore()">Reset Score</button>
+            </td>
+            <td>
+                <button id="speedButton" onclick="resetSpeed()">Reset Speed</button>
+            </td>
+        </tr>
+    </table>
+    <div id="theCanvas"></div>
+
+    <script src="game.js"></script>
+</body>
+
+</html>
